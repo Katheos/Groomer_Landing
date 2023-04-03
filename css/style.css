@@ -1,0 +1,379 @@
+/* Сброс стилей */
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: Montserrat, sans-serif;
+}
+
+.header-content-block{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.header-ul{
+  display: flex;
+  align-items: center;
+}
+.header-list{
+  padding: 1rem;
+}
+
+.header-ul li:last-child{
+  margin-left: 2rem;
+}
+.header-button{
+  width: 249px;
+  height: 44px;
+  background: #67AD5B;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.header-menu li:hover{
+  color: #f5ba62;
+}
+
+/* Ссылки */
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Цвет ссылок при наведении */
+a:hover {
+  color: #f5ba62;
+}
+
+/* Изображение начала на сайте */
+.begining-image {
+  display: flex;
+  margin-top: -130px;
+}
+
+/* Текст про салон */
+.text-salon {
+  font-size: 45px;
+}
+
+/* Местоположение салона */
+.location {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* Кнопка "консультация" */
+.consult-button {
+  width: 249px;
+  height: 44px;
+  background: #67AD5B;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  /* Текст на кнопке "консультация" */
+.button-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+/* Текст на кнопке "записатись" */
+.button-header-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.begining-container {
+  display: grid;
+  width: 75%;
+}
+
+.content-begining {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 6rem;
+  margin-left: 8rem;
+  margin-right: 10rem;
+}
+/* Представление */ 
+.greeting-block {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+/* Текст представления */
+.greeting-text {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 28px;
+  letter-spacing: 0.025em;
+  max-width: 1700px;
+  padding-top: 65px;
+}
+
+.greeting-text h4{
+  padding-top: 53px;
+}
+
+.greeting-list{
+  font-weight: 500;
+  font-size: 20px;
+  max-width: 1700px;
+}
+
+.greeting-list li{
+  color: #67AD5B; /* Цвет маркера */
+  list-style-type: disc;
+  margin: 30px;
+}
+.greeting-list span{
+  color:#000000;
+}
+
+.services-content{
+  display: flex;
+  padding-top: 7rem;
+}
+
+.services-main-text h3{
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.services-text picture, h4{
+  padding-top: 2rem;
+}
+
+.services-text{
+  display: grid;
+  grid-template-columns: 100px 600px;
+  align-items: center;
+}
+
+.services-text h4{
+  margin-left: 27px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 94%;
+}
+
+.service-text-end{
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 28px;
+  letter-spacing: 0.025em;
+  max-width: 1700px;
+  padding-top: 85px;
+}
+
+.container{
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.discount-block{
+  display: flex;
+  background: #f5ba62;
+  width: 100%;
+  margin-top: 4rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 2rem;
+}
+.discount-block h3{
+  font-weight: bold;
+  font-size: 55px;
+  margin-bottom: 1rem;
+}
+
+.discount-block h4{
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.discount-block span{
+  font-weight: bolder;
+  font-size: 65px;
+}
+.discount-block p{
+  color: #000000;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 28px;
+  letter-spacing: 0.025em;
+}
+.discount-info{
+  display: block;
+  background: #FFFFFF;
+  margin-top: 3rem;
+  border-radius: 15px;
+  padding-left: 5rem;
+  width: 85%;
+  line-height: 28px;
+  letter-spacing: 0.025em;
+}
+
+.discount-info h4{
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.discount-info li{
+  color: #f5ba62; /* Цвет маркера */
+  list-style-type: disc;
+  margin: 2.5rem;
+}
+
+.discount-info p{
+  color: #000000;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 28px;
+  letter-spacing: 0.025em;
+}
+
+.katerina-block{
+  display: flex;
+  padding-top: 7rem;
+}
+
+.katerina-main-text{
+  margin-left: 9rem;
+}
+
+.katerina-main-text h3{
+  margin-left: 1rem;
+  padding-bottom: 2rem;
+  font-weight: 900;
+  font-size: 40px;
+}
+.katerina-text{
+  display: grid;
+  grid-template-columns: 35rem;
+  align-items: center;
+  }
+
+.katerina-text h4{
+  font-weight: 600;
+  font-size: 25px;
+  padding: 1rem;
+}
+
+.katerina-button {
+  width: 249px;
+  height: 44px;
+  background: #67AD5B;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+.katerina-button p:hover{
+  color: #f5ba62;
+}
+
+.form_block{
+  display: block;
+}
+
+.form_container{
+  background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    filter: drop-shadow(0 0 10px #c8c8c8);
+
+}
+
+.form_container form{
+  display: grid;
+}
+
+.form_content{
+  display: flex;
+  flex-direction: column;
+}
+
+.customer_name{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 5px;
+}
+
+.form_block h2{
+  font-size: 35px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+input{
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.form_content button {
+  margin-top: 20px;
+  border: none;
+  background: #67AD5B;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.form_content button:hover {
+  color: #f5ba62;
+}
+
+.dropdown {
+  display: none;
+}
+
+.dropdown-btn:hover{
+  cursor: pointer;
+}
+
+.dropdown-list{
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 5px;
+  border: solid 1px grey;
+}
+
+.dropdown-list input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.client_form_text{
+  height: 100px;
+  
+}
