@@ -7,25 +7,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css\style.css" type="text/css">
+<link rel="stylesheet" href="css/media.css" type="text/css">
 <title>Грумер</title>
 </head>
 <header class="header">
     <div class="header-content-block">
-        <div class="header-image">
+        <div class="logo-image">
             <picture>
-            <source srcset="images\zoocomplex_logo.webp" type="image/webp">
-            <source srcset="images\zoocomplex_logo.jpg" type="image/jpeg">
-            <img src="images\zoocomplex_logo.jpg" alt="zoologo">
+                <source srcset="images\zoocomplex_logo.webp" type="image/webp">
+                <source srcset="images\zoocomplex_logo.jpg" type="image/jpeg">
+                <img class="header-image" src="images\zoocomplex_logo.jpg" alt="zoologo">
+            </picture>
+            <picture>
+                <source srcset="images\burger_menu.webp" type="image/webp">
+                <source srcset="images\burger_menu.jpg" type="image/jpeg">
+                <img class="burger_menu" id="burger_menu" src="images\burger_menu.jpg" alt="burger">
             </picture>
         </div>
         <div class="header-menu-block">
             <div class="header-menu">
-                <ul class="header-ul">
-                <li class="header-list"><a href="#poslugy">Послуги</a></li>
-                <li class="header-list"><a href="#discount">Знижки</a></li>
-                <li class="header-list"><a href="#about">О нас</a></li>
-                <li class="header-list"><a href="#contact">Контакти</a></li>
-                <a href="#form"><li class="header-button">Записатись</li></a>
+                <ul id="header-ul" class="header-ul">
+                    <li class="header-list"><a href="#poslugy">Послуги</a></li>
+                    <li class="header-list"><a href="#discount">Знижки</a></li>
+                    <li class="header-list"><a href="#about">О нас</a></li>
+                    <li class="header-list"><a href="#contact">Контакти</a></li>
+                    <a href="#form"><li class="header-button">Записатись</li></a>
                 </ul>
             </div>
         </div>
@@ -35,9 +41,7 @@
 <div class="container">
     <div class="content-begining">
         <div class="begining-container">
-            <div class="text-salon">
-            <h2>Грумер-салон<br>для ваших улюбленців</h2>
-            </div>
+            <h2>Грумер-салон для ваших улюбленців</h2>
             <div class="location">м. Дніпро, вул. Гагарина 112Б</div>
             <div class="consult-button">
                 <a href="#contact"><p class="button-text">Консультація</p></a>
@@ -65,10 +69,9 @@
             </ul>
         </div>
     </div>
-    
         <div class="services-content"><p><a name="poslugy"></a></p>
             <div class="services-main-image">
-                <picture>
+                <picture class="services-main-image">
                     <source srcset="images\sobaka_polotence.webp" type="image/webp">
                     <source srcset="images\sobaka_polotence.jpg" type="image/jpeg">
                     <img src="images\sobaka_polotence.jpg" alt="sobpolo">
@@ -80,31 +83,31 @@
                     <picture>
                         <source srcset="images\poslygi_1.webp" type="image/webp">
                         <source srcset="images\poslygi_1.jpg" type="image/jpeg">
-                        <img src="images\poslygi_1.jpg" alt="poslug-1">
-                    </picture>
-                    <h4>Стрижку та купання;</h4>
+                        <img class="services-image" src="images\poslygi_1.jpg" alt="poslug-1">
+                        <h4>Стрижку та купання;</h4>
+                    </picture>  
                     <picture>
                         <source srcset="images\poslygi_2.webp" type="image/webp">
                         <source srcset="images\poslygi_2.jpg" type="image/jpeg">
-                        <img src="images\poslygi_2.jpg" alt="poslug-2">
+                        <img class="services-image" src="images\poslygi_2.jpg" alt="poslug-2">
+                        <h4>Гігієнічний догляд (чистка вух, очей, зубів, обрізання кігтів);</h4>
                     </picture>
-                    <h4>Гігієнічний догляд (чистка вух, очей, зубів, обрізання кігтів);</h4>
                     <picture>
                         <source srcset="images\poslygi_3.webp" type="image/webp">
                         <source srcset="images\poslygi_3.jpg" type="image/jpeg">
-                        <img src="images\poslygi_3.jpg" alt="poslug-3">
+                        <img class="services-image" src="images\poslygi_3.jpg" alt="poslug-3">
+                        <h4>Послуги зі спеціального догляду для тварин із проблемами шкіри та шерсті;</h4>
                     </picture>
-                    <h4>Послуги зі спеціального догляду для тварин із проблемами шкіри та шерсті;</h4>
                     <picture>
                         <source srcset="images\poslygi_4.webp" type="image/webp">
                         <source srcset="images\poslygi_4.jpg" type="image/jpeg">
-                        <img src="images\poslygi_4.jpg" alt="poslug-4">
+                        <img class="services-image" src="images\poslygi_4.jpg" alt="poslug-4">
+                        <h4>Комплексні послуги для гризунів, такі як стрижка, купання.</h4>
                     </picture>
-                    <h4>Комплексні послуги для гризунів, такі як стрижка, купання.</h4>
                 </div>
             </div>
         </div>
-    <div class="service-text-end">Ми розуміємо, що <b>кожна тварина — це індивідуальність</b>, тому працюємо з усіма породами та розмірами вихованців, включаючи тварин із проблемами поведінки і здоров'я. Ми гарантуємо, що ваш улюбленець буде доглянутий та почуватиметься комфортно після візиту до нас.</div>
+    <div class="service-text-end">Ми розуміємо, що кожна тварина — це індивідуальність, тому працюємо з усіма породами та розмірами вихованців, включаючи тварин із проблемами поведінки і здоров'я. Ми гарантуємо, що ваш улюбленець буде доглянутий та почуватиметься комфортно після візиту до нас.</div>
 <div class="form_block"><p><a name="form"></a></p>
     <h2>Заповніть форму, щоб записатися в грумінг-салон ZooComplex</h2>
     <div class="form_container">
@@ -133,7 +136,7 @@
     </div>
 </div>
 <div class="discount-block"><p><a name="discount"></a></p>
-    <h3>Знижки до <span>-10%*</span></h3>
+    <h3>Знижки до -10%*</h3>
     <p>*Згідно з умовами накопичувальної знижки фізичних магазинів ZooComplex</p>
     <div class="discount-info">
         <h4>Ми даємо знижки за:</h4>
@@ -163,7 +166,7 @@
             <h4>За гуманний та шанобливий грумінг для ваших улюбленців</h4>
         </div>
         <div class="katerina-button">
-            <a href="https://zoocomplex.com.ua/uslugi-gruminga/"><p class="button-text">Записатись</p></a>
+            <a href="#form"><p class="button-text">Записатись</p></a>
         </div>
     </div>
 </div>
@@ -202,7 +205,7 @@
         </div>
     </div>
     <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d165.74623217979166!2d35.02253604266957!3d48.342464061533114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbfa6efd1474fd%3A0x1ccdbdf1200c7232!2z0YPQuy4g0JPQsNCz0LDRgNC40L3QsCwgMTIsINCd0L7QstC-0LDQu9C10LrRgdCw0L3QtNGA0L7QstC60LAsINCU0L3QtdC_0YDQvtC_0LXRgtGA0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA1MjA3MA!5e0!3m2!1sru!2sua!4v1680530792664!5m2!1sru!2sua" width="600" height="450" border-radius="15" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d165.74623217979166!2d35.02253604266957!3d48.342464061533114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbfa6efd1474fd%3A0x1ccdbdf1200c7232!2z0YPQuy4g0JPQsNCz0LDRgNC40L3QsCwgMTIsINCd0L7QstC-0LDQu9C10LrRgdCw0L3QtNGA0L7QstC60LAsINCU0L3QtdC_0YDQvtC_0LXRgtGA0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA1MjA3MA!5e0!3m2!1sru!2sua!4v1680530792664!5m2!1sru!2sua" border-radius="15" allowfullscreen="" loading="lazy"></iframe>
     </div>
 </div>
 </div>

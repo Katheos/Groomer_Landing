@@ -67,10 +67,7 @@ a:hover {
   margin-top: -130px;
 }
 
-/* Текст про салон */
-.text-salon {
-  font-size: 45px;
-}
+
 
 /* Местоположение салона */
 .location {
@@ -115,17 +112,26 @@ a:hover {
 }
 
 .begining-container {
-  display: grid;
-  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
 }
 
 .content-begining {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 6rem;
-  margin-left: 8rem;
-  margin-right: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
 }
+
+.begining-container div{
+  margin-top: 2rem;
+}
+/* Текст про салон */
+.begining-container h2{
+  font-size: 45px;
+}
+
 /* Представление */ 
 .greeting-block {
   flex-direction: column;
@@ -164,7 +170,7 @@ a:hover {
 
 .services-content{
   display: flex;
-  padding-top: 7rem;
+  padding: 7rem;
 }
 
 .services-main-text h3{
@@ -176,12 +182,9 @@ a:hover {
   padding-top: 2rem;
 }
 
-.services-text{
-  display: grid;
-  grid-template-columns: 100px 600px;
-  align-items: center;
+.services-text picture{
+  display: flex;
 }
-
 .services-text h4{
   margin-left: 27px;
   font-weight: 500;
@@ -198,8 +201,6 @@ a:hover {
   padding-top: 85px;
 }
 
-
-
 .discount-block{
   display: flex;
   background: #f5ba62;
@@ -212,6 +213,7 @@ a:hover {
   font-weight: 500;
   padding: 2rem;
 }
+
 .discount-block h3{
   font-weight: bold;
   font-size: 55px;
@@ -223,10 +225,6 @@ a:hover {
   font-size: 25px;
 }
 
-.discount-block span{
-  font-weight: bolder;
-  font-size: 65px;
-}
 .discount-block p{
   color: #000000;
   font-weight: 600;
@@ -388,7 +386,7 @@ input{
 }
 
 .contacts_info{
-  margin-right: 20rem;
+  margin-right: 8rem;
 }
 
 .contacts_info h3{
@@ -421,11 +419,17 @@ input{
 }
 
 .map iframe{
-border: 3px solid #F5BA62;
-filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.15));
-border-radius: 15px;
+  border: 3px solid #F5BA62;
+  filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.15));
+  border-radius: 15px;
+  width: 650px;
+  height: 450px;
 }
 
 .map{
   padding-top: 5rem;
+}
+
+.burger_menu{
+  display: none;
 }
