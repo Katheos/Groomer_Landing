@@ -1,211 +1,263 @@
-@media (min-width :320px) and (max-width:1500px) {
-    *{
-      font-size: large;
-      max-width: 100vw;
-    }
-    .header-image{
-      width: 280px;
-    }
-    .services-main-image{
-      display: none;
-    }
-    .header-content-block{
-      display: flex;
-      flex-direction: column;
-    }
-    .header-ul{
-      display: none;
-      flex-direction: column;
-    }
-    .services-content{
-      display: block;
-      padding: 0rem;
-      margin: 1rem;
-    }
-    .services-text h4, .service-text-end, .services-main-text h3{
-      font-size: large;
-    }
-    .services-text, .katerina-block{
-      display: block;
-    }
-    .contacts{
-      display: flex;
-      flex-direction: column;
-    }
-    .customer_name{
-      display: flex;
-      flex-direction: column;
-    }
-    .form_block h2{
-      font-size: 20px;
-      padding: 1rem;
-      padding-top: 2rem;
-    }
-    .begining-container, .katerina-main-text, .discount-block h4, .katerina-block{
-      padding: 0;
-      margin: 0;
-    }
-    .content-begining{
-      flex-direction: column;
-    }
-    .begining-image img{
-      padding-top: 10rem;
-      width: 90vw;
-    }
-    .begining-image{
-      z-index: -1;
-    }
-    .content-begining, .service-text-end, .greeting-text{
-      padding: 1rem;
-      margin: 0;
-      padding-top: 2rem;
-    }
-    .services-image{
-      max-height: 90px;
-      max-width: 90px;
-    }
-    .discount-info p, .discount-block p, .katerina-text h4, .contacts_info li{
-      font-size: 15px;
-    }
-    .discount-info li, .katerina-main-text h3{
-      padding: 0;
-      margin: 1rem;
-    }
-    .discount-info{
-      width: 95vw;
-    }
-    .discount-info, .discount-block{
-      margin: 1rem;
-      padding: 1rem;
-    }
-    .katerina-text h4{
-      padding: 1rem;
-      margin: 0;
-    }
-    .katerina-button, .consult-button{
-      margin: auto;
-      margin-top: 1rem;
-    }
-    .contacts_info h3, .begining-container h2{
-      font-size: 30px;
-    }
-    .contacts{
-      width: 100vw;
-      margin: 0;
-      margin-top: 3rem;
-    }
-    .socials_images img{
-      max-width: 44px;
-      max-height: 45px;
-    }
-    .contacts_info{
-      margin: 0;
-    }
-    .map{
-      display: none;
-    }
-    .burger_menu{
-        display: flex;
-    }
-    .logo-image{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .header-button{
-      padding: 0 !important;
-      margin: 0 !important;
-    }
+@media (min-width :200px) and (max-width:1500px) {
+  *{
+    font-size: large;
+    max-width: 100vw;
   }
+  .header-image{
+    width: 280px;
+  }
+  .services-main-image{
+    display: none;
+  }
+  .header-content-block{
+    display: flex;
+    flex-direction: column;
+  }
+  .header-ul{
+    display: none;
+    flex-direction: column;
+  }
+  .services-content{
+    display: block;
+    padding: 0rem;
+    margin: 1rem;
+  }
+  .services-text h4, .service-text-end, .services-main-text h3{
+    font-size: large;
+  }
+  .services-text, .katerina-block{
+    display: block;
+  }
+  .contacts{
+    display: flex;
+    flex-direction: column;
+  }
+  .customer_name{
+    display: flex;
+    flex-direction: column;
+  }
+  .form_block h2{
+    font-size: 20px;
+    padding: 1rem;
+    padding-top: 2rem;
+  }
+  .begining-container, .katerina-main-text, .discount-block h4, .katerina-block{
+    padding: 0;
+    margin: 0;
+  }
+  .content-begining{
+    flex-direction: column;
+  }
+  .begining-image img{
+    padding-top: 10rem;
+    width: 90vw;
+  }
+  .begining-image{
+    z-index: -1;
+  }
+  .content-begining, .service-text-end, .greeting-text{
+    padding: 1rem;
+    margin: 0;
+    padding-top: 2rem;
+  }
+  .services-image{
+    max-height: 90px;
+    max-width: 90px;
+  }
+  .discount-info p, .discount-block p, .katerina-text h4, .contacts_info li{
+    font-size: 15px;
+  }
+  .discount-info li, .katerina-main-text h3{
+    padding: 0;
+    margin: 1rem;
+  }
+  .discount-info{
+    width: 95vw;
+  }
+  .discount-info, .discount-block{
+    margin: 1rem;
+    padding: 1rem;
+  }
+  .katerina-text h4{
+    padding: 1rem;
+    margin: 0;
+  }
+  .katerina-button, .consult-button{
+    margin: auto;
+    margin-top: 1rem;
+  }
+  .contacts_info h3, .begining-container h2{
+    font-size: 30px;
+  }
+  .contacts{
+    width: 100vw;
+    margin: 0;
+    margin-top: 3rem;
+  }
+  .socials_images img{
+    max-width: 44px;
+    max-height: 45px;
+  }
+  .contacts_info{
+    margin: 0;
+  }
+  .map{
+    display: none;
+  }
+  .burger_menu{
+      display: flex;
+  }
+  .logo-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-button{
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .ryka{
+    z-index: -1;
+  }
+  .ryka-img{
+    max-width: 60vw;
+  }
+}
 
-  @media (min-width :568px) and (max-width:768px){
-    .map iframe{
-      max-width: 50vw;
-      max-height: 70vh;
-    }
-    .map{
-      display: block;
-      margin: 1rem;
-      padding: 0;
-    }
-    .contacts{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-    }
+@media (min-width :200px) and (max-width:567px) {
+  .header-image{
+    max-width: 70vw;
   }
+  .ryka-container{
+    display: none;
+  }
+  .contacts_info{
+    align-self: center;
+    align-items: center;
+  }
+  .socials_images picture:first-child{
+    padding: 0;
+    margin: 0;
+  }
+  .contact-button{
+    display: block;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: #67AD5B;
+    border-radius: 5px;
+    border: none;
+  }
+  .contact-button a{
+    color: #FFFFFF;
+  }
+  .contacts_info li{
+    padding-left: 0;
+  }
+  .contacts_info h3{
+    margin: 0;
+  }
+  .contacts{
+    margin-top: 2rem;
+  }
+}
 
-  @media (min-width :769px) and (max-width:1500px){
-    .burger_menu{
-      display: none;
-    }
-    .header-ul{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
-    .header-content-block{
-      display: flex;
-      flex-direction: row;
-    }
-    .begining-image img{
-      max-width: 50vw;
-    }
-    .services-main-image img{
-      max-width: 60vw;
-    }
-    .services-main-image{
-      display: block;
-      margin: auto;
-    }
-    .content-begining{
-      display: flex;
-      justify-content: space-between;
-      flex-direction: row;
-    }
-    .header-button{
-      width: 150px;
-    }
-    .services-content{
-      display: flex;
-      flex-direction: column;
-    }
-    .map iframe{
-      max-width: 50vw;
-      max-height: 70vh;
-    }
-    .map{
-      display: block;
-      margin: 1rem;
-      padding: 0;
-    }
-    .contacts{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-    }
-    .begining-container{
-      margin: 1rem;
-    }
+@media (min-width :568px) and (max-width:768px){
+  .map iframe{
+    max-width: 50vw;
+    max-height: 70vh;
   }
+  .map{
+    display: block;
+    margin: 1rem;
+    padding: 0;
+  }
+  .contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  
+}
 
-  @media (min-width: 1025px) and (max-width:1500px){
-    .services-content{
-      display: flex;
-      flex-direction: row;
-    }
-    .services-main-image img{
-      max-width: 45vw;
-    }
-    .katerina-block{
-      display: flex;
-    }
-    .katerina-image img{
-      max-width: 30vw;
-    }
-    .content-begining{
-      margin: 0;
-      padding: 0;
-    }
+@media (min-width :769px) and (max-width:1500px){
+  .burger_menu{
+    display: none;
   }
+  .header-ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .header-content-block{
+    display: flex;
+    flex-direction: row;
+  }
+  .begining-image img{
+    max-width: 50vw;
+  }
+  .services-main-image img{
+    max-width: 60vw;
+  }
+  .services-main-image{
+    display: block;
+    margin: auto;
+  }
+  .content-begining{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .header-button{
+    width: 150px;
+  }
+  .services-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .map iframe{
+    max-width: 50vw;
+    max-height: 70vh;
+  }
+  .map{
+    display: block;
+    margin: 1rem;
+    padding: 0;
+  }
+  .contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .begining-container{
+    margin: 1rem;
+  }
+  .ryka-img{
+    max-width: 40vw;
+  }
+}
+
+@media (min-width: 1025px) and (max-width:1500px){
+  .services-content{
+    display: flex;
+    flex-direction: row;
+  }
+  .services-main-image img{
+    max-width: 45vw;
+  }
+  .katerina-block{
+    display: flex;
+  }
+  .katerina-image img{
+    max-width: 30vw;
+  }
+  .content-begining{
+    margin: 0;
+    padding: 0;
+  }
+  .ryka-container{
+    padding-bottom: 5rem;
+  }
+}
